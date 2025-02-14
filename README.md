@@ -1,2 +1,2 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Da-Daria/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Da-Daria/python-project-49/actions)
+https://asciinema.org/a/C0zww9t9B9j3yXHVUjw7N2Xro
+
