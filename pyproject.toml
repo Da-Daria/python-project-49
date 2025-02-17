@@ -1,7 +1,8 @@
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
-brain-calc = "scripts.brain_games:play_game"
+brain-calc = "brain_games.scripts.brain_calc:main"
+brain-gcd = "brain_games.scripts.brain_gcd:main"
 
 [project]
 name = "hexlet-code"
