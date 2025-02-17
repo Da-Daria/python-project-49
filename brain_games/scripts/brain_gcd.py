@@ -1,5 +1,4 @@
 import random
-import math
 
 def main():
     print("Welcome to the Brain Games!")
@@ -7,7 +6,7 @@ def main():
     print(f"Hello, {name}!")
     print("Find the greatest common divisor of given numbers.")
 
-    for _ in range(3):  # 3 раунда
+    for _ in range(3):
         num1 = random.randint(1, 100)
         num2 = random.randint(1, 100)
         correct_answer = math.gcd(num1, num2)
@@ -23,6 +22,3 @@ def main():
             return
 
     print(f"Congratulations, {name}!")
-
-if __name__ == "__main__":
-    main()

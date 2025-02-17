@@ -22,6 +22,3 @@ def main():
     else:
         print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{hidden_value}'.")
         print("Let's try again!")
-
-if __name__ == "__main__":
-    main()
