@@ -15,7 +15,7 @@ def get_question_answer():
     question = f"{num1} {operation} {num2}"
     return question, answer
 
-def play_game():
+def main():
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
