@@ -10,6 +10,9 @@ def hide_element(progression):
     return hidden_value, progression
 
 def main():
+    print("Welcome to the Brain Games!")
+    name = input("May I have your name? ")
+    print(f"Hello, {name}!")
     print("What number is missing in the progression?")
     progression = generate_progression()
     hidden_value, displayed_progression = hide_element(progression)
@@ -21,4 +24,6 @@ def main():
         print("Correct!")
     else:
         print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{hidden_value}'.")
-        print("Let's try again!")
+        print("Let's try again, {name}!")
+
+print(f"Congratulations, {name}!")
