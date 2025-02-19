@@ -1,3 +1,14 @@
+[project]
+name = "hexlet-code"
+version = "0.1.0"
+description = "A collection of brain games to challenge your logic and math skills."
+authors = ["Степанова Дарья <step.dasha.2000@gmail.com>"]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "prompt>=0.4.1",
+]
+
 [project.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
@@ -5,17 +16,6 @@ brain-calc = "brain_games.scripts.brain_calc:main"
 brain-gcd = "brain_games.scripts.brain_gcd:main"
 brain-progression = "brain_games.scripts.brain_progression:main"
 brain-prime = "brain_games.scripts.brain_prime:main"
-
-
-[project]
-name = "hexlet-code"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "prompt>=0.4.1",
-]
 
 [build-system]
 requires = ["hatchling"]
