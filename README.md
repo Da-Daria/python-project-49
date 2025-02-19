@@ -1,8 +1,8 @@
 Ссылки на демонстрацию работы игр:
-Проверка на чётность: https://asciinema.org/a/C0zww9t9B9j3yXHVUjw7N2Xro
+Проверка на чётность: https://asciinema.org/a/TksOFXyi8eVUpBtY6rINm6XoF
 Калькулятор: https://asciinema.org/a/eeVVAYdTjE8RbbbVhVnV7USOv
-Наибольший общий делитель (НОД): 
-Арифметическая прогрессия:
+Наибольший общий делитель (НОД): https://asciinema.org/a/evaVQJ8yMwBX2HtGFJkMxajOK
+Арифметическая прогрессия: https://asciinema.org/a/gAWDbPGCn27t5wMthHxsIMSdw
 Простое ли число?: https://asciinema.org/a/ZmermaZJsp5evf2wZPs22TcM2
 
 Brain Games — это набор игр, которые помогут Вам проверить и улучшить свои математические навыки и логическое мышление. 
