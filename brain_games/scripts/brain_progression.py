@@ -16,18 +16,21 @@ def main():
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
     print("What number is missing in the progression?")
-    
-    progression = generate_progression()
-    hidden_value, displayed_progression = hide_element(progression)
 
-    print("Question:", ' '.join(map(str, displayed_progression)))
-    user_answer = input("Your answer: ")
+    rounds = 3
+    for _ in range (rounds):
+        progression = generate_progression()
+        hidden_value, displayed_progression = hide_element(progression)
 
-    if int(user_answer) == hidden_value:
-        print("Correct!")
-    else:
-        print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{hidden_value}'.")
-        print(f"Let's try again, {name}!")
+        print("Question:", ' '.join(map(str, displayed_progression)))
+        user_answer = input("Your answer: ")
+
+        if int(user_answer) == hidden_value:
+           print("Correct!")
+        else:
+           print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{hidden_value}'.")
+           print(f"Let's try again, {name}!")
+           return
 
     print(f"Congratulations, {name}!")
 
