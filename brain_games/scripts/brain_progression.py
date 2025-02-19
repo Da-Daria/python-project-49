@@ -1,4 +1,5 @@
 import random
+import time
 
 def generate_progression(length=None, start=1, step=2):
     if length is None:
@@ -12,6 +13,7 @@ def hide_element(progression):
     return hidden_value, progression
 
 def main():
+    random.seed(time.time())
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
@@ -21,6 +23,7 @@ def main():
         progression = generate_progression()
         hidden_value, displayed_progression = hide_element(progression)
 
+        print ("Generated progression:", progression)
         print("Question:", ' '.join(map(str, displayed_progression)))
         user_answer = input("Your answer: ")
 
