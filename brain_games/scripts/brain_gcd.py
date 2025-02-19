@@ -1,5 +1,4 @@
 import random
-import math
 
 def main():
     print("Welcome to the Brain Games!")
@@ -23,6 +22,3 @@ def main():
             return
 
     print(f"Congratulations, {name}!")
-
-if __name__ == '__main__':
-    main()
