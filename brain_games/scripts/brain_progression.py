@@ -13,7 +13,7 @@ def hide_element(progression):
     return hidden_value, progression
 
 def main():
-    random.seed()
+    random.seed(time.time())
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
     print(f"Hello, {name}!")
