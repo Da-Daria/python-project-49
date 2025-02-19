@@ -17,9 +17,8 @@ def main():
     print(f"Hello, {name}!")
     print("What number is missing in the progression?")
 
-    for _ in range(3):
+    for_in range(3):
         progression = generate_progression()
-        print(f"Debug: Generated progression: {progression}")
         hidden_value, displayed_progression = hide_element(progression)
 
         print("Question:", ' '.join(map(str, displayed_progression)))
