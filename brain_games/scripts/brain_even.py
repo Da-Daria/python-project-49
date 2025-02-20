@@ -1,5 +1,6 @@
 import random
 
+
 def main():
     print("Welcome to the Brain Games!")
     name = input("May I have your name? ")
@@ -16,7 +17,8 @@ def main():
             print("Correct!")
             correct_answers += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was {'yes' if number % 2 == 0 else 'no'}.")
+            print(f"'{answer}' is wrong answer ;(. 
+            Correct answer was {'yes' if number % 2 == 0 else 'no'}.")
             print(f"Let's try again, {name}!")
             return
 

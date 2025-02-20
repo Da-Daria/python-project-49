@@ -1,5 +1,9 @@
 import random
 
+
+
+
+
 def is_prime(n):
     if n <= 1:
         return False
@@ -7,6 +11,10 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
+
+
+
 
 def main():
     print("Welcome to the Brain Games!")
@@ -24,8 +32,11 @@ def main():
         if answer.lower() == correct_answer:
             print("Correct!")
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
+            print(f"'{answer}' is wrong answer ;(. 
+            Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
 
+
     print(f"Congratulations, {name}!")
+
