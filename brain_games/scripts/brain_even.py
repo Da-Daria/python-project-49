@@ -13,11 +13,13 @@ def main():
         print(f"Question: {number}")
         answer = input("Your answer: ")
 
-        if (number % 2 == 0 and answer.lower() == "yes") or (number % 2 != 0 and answer.lower() == "no"):
+        if ((number % 2 == 0 and answer.lower() == "yes") or 
+           (number % 2 != 0 and answer.lower() == "no")):
             print("Correct!")
             correct_answers += 1
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was {'yes' if number % 2 == 0 else 'no'}.")
+            print(f"'{answer}' is wrong answer ;(." 
+                  f"Correct answer was {'yes' if number % 2 == 0 else 'no'}.")
             print(f"Let's try again, {name}!")
             return
 
