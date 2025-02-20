@@ -2,7 +2,9 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "A collection of brain games to challenge your logic and math skills."
-authors = ["Степанова Дарья <step.dasha.2000@gmail.com>"]
+authors = [
+        {name = "Stepanova Daria", email = "step.dasha.2000@gmail.com"}
+]
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
