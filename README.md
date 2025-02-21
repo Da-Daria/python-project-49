@@ -6,9 +6,8 @@ Brain Games — это набор разнообразных игр, котор�
 4. Арифметическая прогрессия: определите пропущенное число в последовательности.
 5. Простое ли число?: узнайте, является ли заданное число простым.
 
-![Code Climate](https://api.codeclimate.com/v1/badges/f6aa62929981c1c9f080/maintainability)(https://codeclimate.com/github/Da-Daria/python-project-49/maintainability))
-
-![GitHub Actions][![hexlet-check](https://github.com/Da-Daria/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Da-Daria/python-project-49/actions/workflows/hexlet-check.yml)
+![Code Climate](https://api.codeclimate.com/v1/badges/f6aa62929981c1c9f080/maintainability)(https://codeclimate.com/github/Da-Daria/python-project-49/maintainability)
+[![hexlet-check](https://github.com/Da-Daria/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Da-Daria/python-project-49/actions/workflows/hexlet-check.yml)
 
 Ссылки на демонстрацию работы игр:
 
