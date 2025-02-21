@@ -7,7 +7,7 @@ Brain Games — это набор разнообразных игр, котор�
 5. Простое ли число?: узнайте, является ли заданное число простым.
 
 ![Code Climate](https://api.codeclimate.com/v1/badges/f6aa62929981c1c9f080/maintainability)(https://codeclimate.com/github/Da-Daria/python-project-49/maintainability))
-![GitHub Actions](https://github.com/Da-Daria/python-project-49/actions/workflows/hexlet-check.yml)
+![GitHub Actions](https://github.com/Da-Daria/python-project-49/actions)
 
 Ссылки на демонстрацию работы игр:
 
