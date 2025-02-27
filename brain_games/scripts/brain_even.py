@@ -1,5 +1,5 @@
 import random
-import game_engine
+from .game_engine import welcome_player, ask_question, check_answer, play_game
 
 def is_even_game_logic():
     number = random.randint(1, 100)
