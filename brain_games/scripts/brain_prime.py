@@ -1,6 +1,5 @@
 import random
 
-
 def is_prime(n):
     if n <= 1:
         return False
@@ -9,27 +8,14 @@ def is_prime(n):
             return False
     return True
 
+def game_logic():
+    number = random.randint(1, 100)
+    correct_answer = "yes" if is_prime(number) else "no"
+    return number, correct_answer
 
 def main():
-    print("Welcome to the Brain Games!")
-    name = input("May I have your name? ")
-    print(f"Hello, {name}!")
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+    play_game(game_logic)
 
-    for _ in range(3):
-        number = random.randint(1, 100)
-        correct_answer = "yes" if is_prime(number) else "no"
-        
-        print(f"Question: {number}")
-        answer = input("Your answer: ")
-
-        if answer.lower() == correct_answer:
-            print("Correct!")
-        else:
-            print(f"'{answer}' is wrong answer ;(." 
-            f"Correct answer was '{correct_answer}'.")
-            print(f"Let's try again, {name}!")
-            return
-
-    print(f"Congratulations, {name}!")
+if __name__ == "__main__":
+    main()
 
