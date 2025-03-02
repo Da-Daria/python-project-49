@@ -13,6 +13,7 @@ def gcd_game_logic():
     return question, str(correct_answer)
 
 def main():
+    print("Find the greatest common divisor of given numbers.")
     play_game(gcd_game_logic)
 
 if __name__ == "__main__":
