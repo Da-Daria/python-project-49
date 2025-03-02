@@ -1,6 +1,6 @@
 import random
 
-from ./brain_games/game_engine.py import play_game
+from brain_games.game_engine import play_game
 
 
 def is_even_game_logic():
