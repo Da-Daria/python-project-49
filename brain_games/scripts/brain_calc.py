@@ -17,6 +17,9 @@ def calculator_game_logic():
 
     return question, str(answer)
 
+def main():
+    play_game(calc_game_logic)
+
 if __name__ == "__main__":
     play_game(calculator_game_logic)
 
