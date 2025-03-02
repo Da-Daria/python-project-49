@@ -11,6 +11,7 @@ def is_even_game_logic():
 
 
 def main():
+    print('Answer "yes" if the number is even, otherwise answer "no".')
     play_game(is_even_game_logic)
 
 
