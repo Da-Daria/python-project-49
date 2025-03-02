@@ -1,8 +1,7 @@
 import random
-
 from brain_games.game_engine import play_game
 
-def calc_game_logic():
+def main():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
     operation = random.choice(['+', '-', '*'])
@@ -15,10 +14,10 @@ def calc_game_logic():
     else:
         answer = num1 * num2
 
+    print("What is the result of the expression?")
+    
     return question, answer
 
-def main():
-    play_game(calc_game_logic)
-
 if __name__ == "__main__":
-    main()
+    play_game(main)
+
