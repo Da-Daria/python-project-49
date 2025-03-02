@@ -2,7 +2,7 @@ import random
 
 from brain_games.game_engine import play_game
 
-def calculator_game_logic():
+def calc_game_logic():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
     operation = random.choice(['+', '-', '*'])
@@ -21,5 +21,5 @@ def main():
     play_game(calc_game_logic)
 
 if __name__ == "__main__":
-    play_game(calculator_game_logic)
+    main()
 
