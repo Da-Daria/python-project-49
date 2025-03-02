@@ -1,16 +1,20 @@
-import math
 import random
-
+import math
 from brain_games.game_engine import play_game
 
+def gcd(a, b):
+    return math.gcd(a, b)
 
 def gcd_game_logic():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
-    correct_answer = math.gcd(num1, num2)
     question = f"{num1} {num2}"
-    return question, correct_answer
+    correct_answer = gcd(num1, num2)
+    return question, str(correct_answer)
 
+def main():
+    play_game(gcd_game_logic)
 
 if __name__ == "__main__":
-    play_game(gcd_game_logic)
+    main()
+
