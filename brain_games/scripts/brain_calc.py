@@ -8,6 +8,8 @@ def main():
     operation = random.choice(['+', '-', '*'])
     question = f"{num1} {operation} {num2}"
 
+    print("What is the result of the expression?")
+
     if operation == '+':
         answer = num1 + num2
     elif operation == '-':
@@ -15,7 +17,6 @@ def main():
     else:
         answer = num1 * num2
 
-    print("What is the result of the expression?")
     return question, answer
 
 if __name__ == "__main__":
