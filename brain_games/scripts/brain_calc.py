@@ -18,6 +18,7 @@ def calc_game_logic():
     return question, str(answer)
 
 def main():
+    print("What is the result of the expression?")
     play_game(calc_game_logic)
 
 if __name__ == "__main__":
