@@ -1,6 +1,6 @@
 import random
 
-from game_engine import play_game
+from brain_games.game_engine import play_game
 
 
 def get_question_answer():
