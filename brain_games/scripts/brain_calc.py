@@ -1,4 +1,5 @@
 import random
+
 from brain_games.game_engine import play_game
 
 def main():
@@ -15,7 +16,6 @@ def main():
         answer = num1 * num2
 
     print("What is the result of the expression?")
-    
     return question, answer
 
 if __name__ == "__main__":
