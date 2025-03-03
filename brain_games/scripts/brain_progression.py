@@ -19,6 +19,7 @@ def progression_game_logic():
     return question, str(correct_answer)
 
 def main():
+    print("What number is missing in the progression?")
     play_game(progression_game_logic)
 
 if __name__ == "__main__":
