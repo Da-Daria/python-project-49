@@ -2,6 +2,7 @@ import random
 
 from brain_games.game_engine import play_game
 
+
 def is_prime(n):
     if n <= 1:
         return False

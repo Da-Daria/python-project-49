@@ -1,8 +1,11 @@
 import random
+
 from brain_games.game_engine import play_game
+
 
 def generate_progression(start, step, length):
     return [start + step * i for i in range(length)]
+
 
 def progression_game_logic():
     start = random.randint(1, 100)
@@ -18,9 +21,11 @@ def progression_game_logic():
     question = ' '.join(map(str, progression))
     return question, str(correct_answer)
 
+
 def main():
     print("What number is missing in the progression?")
     play_game(progression_game_logic)
+
 
 if __name__ == "__main__":
     main()

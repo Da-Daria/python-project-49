@@ -2,6 +2,7 @@ import random
 
 from brain_games.game_engine import play_game
 
+
 def calc_game_logic():
     num1 = random.randint(1, 100)
     num2 = random.randint(1, 100)
@@ -17,9 +18,11 @@ def calc_game_logic():
 
     return question, str(answer)
 
+
 def main():
     print("What is the result of the expression?")
     play_game(calc_game_logic)
+
 
 if __name__ == "__main__":
     main()
