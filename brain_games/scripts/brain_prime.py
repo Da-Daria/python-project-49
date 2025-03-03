@@ -18,7 +18,7 @@ def game_logic():
 
 
 def main():
-    print("Answer "yes" if given number is prime. Otherwise answer "no".")
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     play_game(game_logic)
 
 
