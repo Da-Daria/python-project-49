@@ -1,26 +1,25 @@
 import random
+from brain_games.game_engine import play_game
 
-
-def generate_progression(length=None, start=1, step=2):
-    if length is None:
-        length = random.randint(5, 10)
+def generate_progression(start, step, length):
     return [start + step * i for i in range(length)]
 
+def progression_game_logic():
+    start = random.randint(1, 100)
+    step = random.randint(1, 10)
+    length = 10
 
-def hide_element(progression):
-    hidden_index = random.randint(0, len(progression) - 1)
-    hidden_value = progression[hidden_index]
+    progression = generate_progression(start, step, length)
+    
+    hidden_index = random.randint(0, length - 1)
+    correct_answer = progression[hidden_index]
     progression[hidden_index] = '..'
-    return hidden_value, progression
 
+    question = ' '.join(map(str, progression))
+    return question, str(correct_answer)
 
-def game_logic():
-    progression = generate_progression()
-    hidden_value, displayed_progression = hide_element(progression)
-    question = ' '.join(map(str, displayed_progression))
-    return question, hidden_value
-
+def main():
+    play_game(progression_game_logic)
 
 if __name__ == "__main__":
-    play_game(game_logic)
-
+    main()
